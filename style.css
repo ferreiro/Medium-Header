@@ -49,7 +49,7 @@ ul, li, a, h1, h3, h4, p
 }
 .HeaderSubtitle
 {
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight: 300;
 	line-height: 0.5em;
 	margin-top: 2em;
@@ -130,6 +130,17 @@ ul, li, a, h1, h3, h4, p
 	background-size: cover;
 }
 
+
+@media all and (min-width: 600px){
+	.HeaderContent
+	{
+		position: absolute;
+		z-index: 5;
+		bottom: 13%;
+		left: 30%; 
+		right: 30%;  
+	}
+}
 @media all and (min-width: 1000px){
 
 	.Header
@@ -156,6 +167,12 @@ ul, li, a, h1, h3, h4, p
 		text-align: center;
 		transition:1s;
 		text-shadow: 1px 1px 2px rgba(2, 2, 2, 1);
+	}
+	.HeaderSubtitle
+	{
+		font-size: 1.2em;
+		line-height: 0.5em;
+		margin-top: 2em;
 	}
 }
 
