@@ -1,9 +1,10 @@
 
-  	/********************************
-  	*** Jorge Ferreiro - Scripts  ***
-  	*** Copyright Jorge Ferreiro  ***
-  	*** Website: jgferreiro.com   ***
-  	*********************************/
+  	/****************************************
+  	*** Jorge Ferreiro made this Scripts  ***
+  	*** Github: github.com/jgferreiro *******
+  	*** Website: jgferreiro.com   ***********
+  	*** Copyright Jorge Ferreiro  ***********
+  	*****************************************/
  	
 	var header = $('.Header'),
 		opacityNum = 0;
