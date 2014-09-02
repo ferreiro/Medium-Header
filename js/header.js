@@ -1,9 +1,9 @@
 
   	/********************************
-  	*** Copyright Jorge Ferreiro ****
-  	*** Website: jgferreiro.com  ****
-  	*** Twitter: @jgferreiro     ****
-	*********************************/
+  	*** Jorge Ferreiro - Scripts  ***
+  	*** Copyright Jorge Ferreiro  ***
+  	*** Website: jgferreiro.com   ***
+  	*********************************/
  	
 	var header = $('.Header'),
 		opacityNum = 0;
