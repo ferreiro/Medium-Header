@@ -8,5 +8,7 @@ if you would like to use this script, please include the copyright info and a li
 ============================
 
 Copyright Jorge Ferreiro
+
 Website: jgferreiro.com
+
 Twitter: @jgferreiro 
