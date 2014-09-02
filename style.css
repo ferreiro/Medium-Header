@@ -3,13 +3,13 @@
 
 body
 {
-	height: 100000px;
+	height:2000px;
 	margin: 0;
 	padding: 0;
 	font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
 }
-ul, li, a, h1, h3, h4
+ul, li, a, h1, h3, h4, p
 {
 	margin: 0;
 	padding: 0;
@@ -26,7 +26,7 @@ ul, li, a, h1, h3, h4
 .Header
 {
 	width: 100%;
-	height: 500px;
+	height: 100vh;
 	position: relative;
 	overflow: hidden;
 }
@@ -34,18 +34,65 @@ ul, li, a, h1, h3, h4
 {
 	width: 700px; 
 	position: absolute;
-	z-index: 4;
-	bottom: 15%;
+	z-index: 5;
+	bottom: 13%;
 	left: 50%; 
-	margin-left: -350px;	
+	margin-left: -350px; 
 }
-.HeaderText
+.HeaderTitle
 {
 	font-size: 4em;
 	line-height: 1.1em;
 	color: #fff;
 	text-align: center;
 	transition:1s;
+	text-shadow: 1px 1px 2px rgba(2, 2, 2, 1);
+}
+.HeaderSubtitle
+{
+	font-size: 1.2em;
+	font-weight: 300;
+	line-height: 0.5em;
+	margin-top: 2em;
+	color: #fff;
+	text-align: center;
+	transition:1s;
+	text-shadow: 1px 1px 2px rgba(2, 2, 2, 1);	
+}
+.HeaderSubtitle .link
+{
+	color: #df9f30;
+	text-decoration: none;
+}
+.HeaderGradient 
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 4;
+}
+.HeaderGradient .top
+{
+	width: 100%;
+	height: 100px;
+	top: 0;
+	position: absolute;
+	background: url(images/HeaderTopGradient.png);
+}
+.HeaderGradient .solid
+{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.2;
+}
+.HeaderGradient .bottom
+{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	bottom: 0;
+	background: url(images/HeaderBottomGradient.png) 0% 100% repeat-x;
 }
 .HeaderImage 
 {
@@ -66,19 +113,20 @@ ul, li, a, h1, h3, h4
 	left: 0;
 	z-index: 3;	
 	position: absolute;
-	overflow: hidden;
+	overflow: hidden; 
 }
-.HeaderBlurImage img
+.HeaderBlurImage div
 {
-	width: 100%; 
+	width: 100%;
+	height: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
-	background: 50% 50% no-repeat;
-	background-size: cover;
-	filter: blur(15px); 
+/*	filter: blur(15px); 
 	-o-filter: blur(15px);
 	-ms-filter: blur(15px);
 	-moz-filter: blur(15px);
-	-webkit-filter: blur(15px);
+	-webkit-filter: blur(15px);*/
+	background: 50% 50% no-repeat;
+	background-size: cover;
 }
