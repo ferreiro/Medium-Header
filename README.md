@@ -1,4 +1,4 @@
-Header-with-blur-like-medium
+Header inspired in medium
 ============================
 
 ![alt text](/images/git_image.jpg)
