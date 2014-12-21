@@ -3,15 +3,14 @@ Header-with-blur-like-medium
 
 ![alt text](/images/git_image.jpg)
 
-I'm doing a script with inspiration of the Medium's header. When you scroll, the image will blur and making the text is dynamically
+I was very fascinated with the medium's header. So, I decided to make my own code and use it on my projects. Then I thought I'w be good to make it public and avaliable for others developers so I release the code under the MIT license.
 
-if you would like to use this script, please include the copyright info and a link to my website. And let me know if your using my code, would be awesome to hear that!!! :P
+If you want to use the script, do it under the license. And let me know if your using my code, would be awesome to hear that!!! :P
 
-Copyright Jorge Ferreiro
+Cheers!.
+Jorge.
 
-============================
-My social networks
-============================
+---
 
-Website: jgferreiro.com
-Twitter: @jgferreiro 
+Website: jgferreiro.com 
+Email: me@jgferreiro.com
