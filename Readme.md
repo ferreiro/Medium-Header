@@ -1,7 +1,7 @@
 Header inspired in medium
 ============================
 
-![alt text](/images/git_image.jpg)
+![alt text](/images/medium_header.jpg)
 
 I was very fascinated with the medium's header. So, I decided to make my own script and use it on my projects. Then I thought It'd be a good idea to make it public and avaliable for others developers. So I released the code under the MIT license.
 
