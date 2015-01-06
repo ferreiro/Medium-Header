@@ -10,8 +10,8 @@ If you want to use the script, do it under the license. And let me know if your 
 Cheers!.
 Jorge.
 
----
-
-> Website: jgferreiro.com <br />
+> Website: <a href="http://www.jgferreiro.com">jgferreiro.com</a> <br />
 > Email: me@jgferreiro.com<br />
-> Twitter: @jgferreiro<br />
+> Twitter: <a href="http://www.twitter.com/jgferreiro">@jgferreiro</a><br />
+
+---
