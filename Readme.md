@@ -14,4 +14,3 @@ Jorge.
 > Email: me@jgferreiro.com<br />
 > Twitter: <a href="http://www.twitter.com/jgferreiro">@jgferreiro</a><br />
 
----
