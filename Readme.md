@@ -12,6 +12,6 @@ Jorge.
 
 ---
 
-Website: jgferreiro.com 
-Email: me@jgferreiro.com
-Twitter: @jgferreiro
+> Website: jgferreiro.com <br />
+> Email: me@jgferreiro.com<br />
+> Twitter: @jgferreiro<br />
