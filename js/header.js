@@ -7,28 +7,28 @@
   	*****************************************/
  	
 	var header = $('.Header'),
-		opacityNum = 0;
+	    headerContent = $('.HeaderContent');
 
 	$(document).scroll(function(e)
 	{
-		headerHeight = $('.Header').height();
-		opacityNum =  window.scrollY / header.height();
-		opacityTitle = (header.height() - window.scrollY) / window.scrollY;
-		title_margin =  window.scrollY / header.height();
+		headerHeight = header.height();
+		opacity =  window.scrollY / header.height();
+		titleOpacity = (header.height() - window.scrollY) / window.scrollY;
+		titleMargin =  window.scrollY / header.height();
 
  		if (window.scrollY > headerHeight / 1.2) {
-			opacityNum =  opacityNum + 0.4;
+			opacityNum +=  0.4;
 		}
  		else if (window.scrollY > headerHeight / 1.8) {
-			opacityNum =  opacityNum + 0.2;
+			opacityNum +=  0.2;
 		}
 		else if (window.scrollY > headerHeight / 3) {
-			opacityNum =  opacityNum * 1.3;
+			opacityNum *=  1.3;
 		} 
 		if(window.scrollY > 0)
 		{
-	 		$('.HeaderContent').css('opacity', opacityTitle); 
-			$('.HeaderContent').css('margin-bottom', - title_margin * 90); 
-	 		$('.HeaderBlurImage').css('opacity', opacityNum); 
+	 		headerContent.css('opacity', titleOpacity); 
+			headerContent.css('margin-bottom', - titleMargin * 90); 
+	 		headerContent.css('opacity', opacity); 
 		}
 	});
