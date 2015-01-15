@@ -6,29 +6,29 @@
   	*** Copyright Jorge Ferreiro  ***********
   	*****************************************/
  	
-	var header = $('.Header'),
-	    headerHeight = header.height(),
-	    headerContent = $('.HeaderContent');
+	var header = $('.Header'), 
+		headerBlur = $('.HeaderBlurImage'), 
+		headerContent = $('.HeaderContent');
 
 	$(document).scroll(function(e)
 	{ 
-		opacity =  window.scrollY / headerHeight;
-		titleOpacity = (headerHeight - window.scrollY) / window.scrollY;
-		titleMargin =  window.scrollY / headerHeight;
+		opacity =  window.scrollY / header.height();
+		titleOpacity = (header.height() - window.scrollY) / window.scrollY;
+		titleMargin =  window.scrollY / header.height();
 
- 		if (window.scrollY > headerHeight / 1.2) {
-			opacityNum +=  0.4;
+ 		if (window.scrollY > header.height() / 1.2) {
+			opacity += 0.4;
 		}
- 		else if (window.scrollY > headerHeight / 1.8) {
-			opacityNum +=  0.2;
+ 		else if (window.scrollY > header.height() / 1.8) {
+			opacity += 0.2;
 		}
-		else if (window.scrollY > headerHeight / 3) {
-			opacityNum *=  1.3;
+		else if (window.scrollY > header.height() / 3) {
+			opacity *= 1.3;
 		} 
 		if(window.scrollY > 0)
 		{
 	 		headerContent.css('opacity', titleOpacity); 
 			headerContent.css('margin-bottom', - titleMargin * 90); 
-	 		headerContent.css('opacity', opacity); 
+	 		headerBlur.css('opacity', opacity); 
 		}
 	});
