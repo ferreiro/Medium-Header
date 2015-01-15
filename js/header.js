@@ -7,14 +7,14 @@
   	*****************************************/
  	
 	var header = $('.Header'),
+	    headerHeight = header.height(),
 	    headerContent = $('.HeaderContent');
 
 	$(document).scroll(function(e)
-	{
-		headerHeight = header.height();
-		opacity =  window.scrollY / header.height();
-		titleOpacity = (header.height() - window.scrollY) / window.scrollY;
-		titleMargin =  window.scrollY / header.height();
+	{ 
+		opacity =  window.scrollY / headerHeight;
+		titleOpacity = (headerHeight - window.scrollY) / window.scrollY;
+		titleMargin =  window.scrollY / headerHeight;
 
  		if (window.scrollY > headerHeight / 1.2) {
 			opacityNum +=  0.4;
