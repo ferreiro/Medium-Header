@@ -1,4 +1,3 @@
-@import url(normalize.css);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
 
 body
@@ -76,7 +75,7 @@ ul, li, a, h1, h3, h4, p
 	height: 100px;
 	top: 0;
 	position: absolute;
-	background: url(images/HeaderTopGradient.png);
+	background: url(../images/HeaderTopGradient.png);
 }
 .HeaderGradient .solid
 {
@@ -91,7 +90,7 @@ ul, li, a, h1, h3, h4, p
 	height: 500px;
 	position: absolute;
 	bottom: 0;
-	background: url(images/HeaderBottomGradient.png) 0% 100% repeat-x;
+	background: url(../images/HeaderBottomGradient.png) 0% 100% repeat-x;
 }
 .HeaderImage 
 {
