@@ -7,7 +7,7 @@ I was very fascinated with the medium.com header. So, I decided to make my own s
 
 - HTML5 + CSS full screen design. 
 - Image blurred when you scroll down.
-- Text Headline moves and dissapear when you scroll down.
+- Text headline moves and dissapears when you scroll down.
 
 ================
 <b>Coming soon.</b><br />
