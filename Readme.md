@@ -3,18 +3,19 @@ Header inspired in medium
 
 ![alt text](/images/medium_header.jpg)
 
-I was very fascinated with the medium.com header. So, I decided to make my own script and use it on my projects. Then I thought It'd be a good idea to make it public and avaliable for others developers. So I released the code under the MIT license.
+One website I usually visit is medium.com. One thing I was fascinated about medium is their articles header. I tried to find out similar code on the internet, but I didn't find it. For this reason, I decide to make my own code and release it under MIT license. 
 
-- HTML5 + CSS full screen design. 
-- Image blurred when you scroll down.
-- Text headline moves and dissapears when you scroll down.
+### Features.
 
-================
-<b>Coming soon.</b><br />
+- Responsibe design made using HTML5 + CSS3.
+- Header image blurred when you scroll down.
+- Text gravity: dissapears and moves when you scroll down.
 
-<p>In the coming version I'm going to include a code to make blurred images automatically. So you'll not need to process each image. Yeeeaah!</p>
-================
-If you want to use the script, do it under the license. And let me know if your using my code, would be awesome to hear that!!! :P
+### Future improvements.
+
+One cool thing I'll implement in the future is the creation of automatic blurred images. In the current version, you'll need to process or upload a blurred image in order to works as expected. 
+
+If you're a developer, feel free to use my code. And if you have some ideas and feedback, please, open an issue or write me an email: <dividirporcero@gmail.com>. Would be awesome to hear your ideas ;).
 
 Cheers!.
 Jorge.
