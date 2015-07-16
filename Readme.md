@@ -20,7 +20,5 @@ If you're a developer, feel free to use my code. And if you have some ideas and 
 Cheers!.
 Jorge.
 
-> Website: <a href="http://www.jgferreiro.com">jgferreiro.com</a> <br />
-> Email: me@jgferreiro.com<br />
 > Twitter: <a href="http://www.twitter.com/jgferreiro">@jgferreiro</a><br />
-
+> Email: <dividirporcero@gmail.com><br />
