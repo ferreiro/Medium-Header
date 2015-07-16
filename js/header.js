@@ -7,11 +7,18 @@
   	*****************************************/
  	
 	var header = $('.Header'), 
-		headerBlur = $('.HeaderBlurImage'), 
-		headerTitle = $('.HeaderContent');
-
+	    headerBlur = $('.HeaderBlurImage'), 
+	    headerTitle = $('.HeaderContent');
+	
+	// This function is execute every time the user makes an scroll.
+	// It calculates the opacity and margin bottom for header's title and full screen image. 
+	// And also, sets those properties for the corresponding elements.
+	
 	$(document).scroll(function(e)
 	{ 
+		// Only executes the following code if the header is visible for the user.
+		// when the user scrolls down and the header is not visile, we avoid make all the operations.
+
 		if (window.scrollY < header.height()) {
 
 			opacity =  window.scrollY / header.height(); 			     // Autocalculate opacity depending on scroll and header height 
@@ -24,11 +31,13 @@
 				opacity += 0.2; // increase acc. opacity in 0.2
 			else if (window.scrollY > header.height() / 3) 
 				opacity *= 1.3; // increase acc. opacity by 1.3.
-
+			
 			if (window.scrollY > 0) {
-		 		headerTitle.css('opacity', titleOpacity); 	// Setting opacity and margin bottom to the Header's title 
-				headerTitle.css('margin-bottom', - titleMargin * 90); 
-		 		headerBlur.css('opacity', opacity); 		// Setting blurred image opacity.
+		 		headerBlur.css('opacity', opacity); 	     // Setting blurred image opacity.
+				headerTitle.css({
+					'opacity': titleOpacity,	     // sets opacity for the tilte
+					'margin-bottom': - titleMargin * 90  // decreases the margin bottom by 90.
+				});
 			}
 		}  
  		
