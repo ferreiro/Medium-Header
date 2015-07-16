@@ -15,7 +15,7 @@ One website I usually visit is medium.com. One thing I was fascinated about medi
 
 One cool thing I'll implement in the future is the creation of automatic blurred images. In the current version, you'll need to process or upload a blurred image in order to works as expected. 
 
-If you're a developer, feel free to use my code. And if you have some ideas and feedback, please, open an issue or write me an email: <dividirporcero@gmail.com>. Would be awesome to hear your ideas ;).
+You can use my code under MIT license. If you have some ideas and feedback, please, open an issue or write me an email: dividirporcero@gmail.com. Would be awesome to hear your ideas ;).
 
 Cheers!.
 Jorge.
